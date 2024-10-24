@@ -4,7 +4,7 @@ After countless sleepless nights, and seeing our entire group of friends' lives 
 
 ## Overview
 
-[Watch the hebrew-semantle-solver Demo](Semantle_10242024.mp4)
+[Watch the hebrew-semantle-solver Demo](./video/Semantle_10242024.mp4)
 
 The hebrew-semantle-solver project automates the word-guessing process using a similarity-based approach:
 
