@@ -4,7 +4,6 @@ After countless sleepless nights, and seeing our entire group of friends' lives 
 
 ## Overview
 
-[Watch the hebrew-semantle-solver Demo](./video/Semantle_10242024.mp4)
 
 The hebrew-semantle-solver project automates the word-guessing process using a similarity-based approach:
 
@@ -12,6 +11,10 @@ The hebrew-semantle-solver project automates the word-guessing process using a s
 - **Similarity Filtering**: It then finds words with close similarities to these initial guesses.
 - **Narrowing Down**: If there are too many candidates, the script guesses 5 additional words to refine the candidate list.
 - **Submission**: Once the number of candidates is small enough (defined by max_candidates), the script submits each word to the Semantle API to check if the secret word is found.
+
+    #### Demo
+    ![Watch the hebrew-semantle-solver Demo](./semantle.gif)
+
 
 ### Installation
  - Clone the repository: `git clone https://github.com/xSk1p/hebrew-semantle-solver.git`
