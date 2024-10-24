@@ -1,12 +1,12 @@
-# Semantle-Solver
+# hebrew-semantle-solver
 
 After countless sleepless nights, and seeing our entire group of friends' lives tearing apart because of the so-called [Hebrew Semantle](https://semantle.ishefi.com/) "game". I knew I had to do something. So, I built this Python project to process the possible secret words based on guesses' similarity, using a pre-trained Word2Vec model created by [Iddo Yadlin](https://github.com/Iddoyadlin/hebrew-w2v) (similar model to the one used in the Semantle game).
 
 ## Overview
 
-[Watch the Semantle-Solver Demo](videoSemantle_10242024.mp4)
+[Watch the hebrew-semantle-solver Demo](Semantle_10242024.mp4)
 
-The Semantle-Solver project automates the word-guessing process using a similarity-based approach:
+The hebrew-semantle-solver project automates the word-guessing process using a similarity-based approach:
 
 - **Initial Guesses**: The script starts by making 10 guesses.
 - **Similarity Filtering**: It then finds words with close similarities to these initial guesses.
@@ -14,10 +14,10 @@ The Semantle-Solver project automates the word-guessing process using a similari
 - **Submission**: Once the number of candidates is small enough (defined by max_candidates), the script submits each word to the Semantle API to check if the secret word is found.
 
 ### Installation
- - Clone the repository: `git clone https://github.com/xSk1p/Semantle-Solver.git`
+ - Clone the repository: `git clone https://github.com/xSk1p/hebrew-semantle-solver.git`
  - Navigate to the project directory: `cd Semantle-Solver`
  - Install the required dependencies: `pip install -r requirements.txt`
- - Ensure the model is placed in the project `model` directory.
+ - Ensure the pre-trained model is placed in the project `model` directory.
  - Run the script `python main.py`
 
 ## License
